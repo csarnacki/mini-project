@@ -7,7 +7,7 @@
 /* Element Selectors */
 body {
   position: relative;
-  font-family: Helvetica, serif;
+  font-family: Arial, serif;
   font-size: 20px;
   background-color: #c7c2bf;
   color: #910a15;
@@ -16,7 +16,7 @@ body {
 h1,
 h2 {
   margin: 20px;
-  font-family: Helvetica, serif;
+  font-family: Arial, serif;
 }
 
 main {
@@ -32,6 +32,7 @@ li {
 a {
   text-decoration: none;
   color: #fdf5f5;
+  font-family: Arial, serif;
 }
 
 a:hover {
@@ -107,16 +108,21 @@ button {
   background-color: #910a15;
   color: #FDF8F5;
 }
+
+button:hover {
+  color: #a6a6a6;
+}
  
 /* Class Selectors */
 .text-center {
   text-align: center;
 }
 
-.text-right {
-  text-align: right;
+.text-left {
+  text-align: left;
 }
 
+/*Id selector for the contact section*/
 #contact {
   background-color: #ebe8e7;
 }
